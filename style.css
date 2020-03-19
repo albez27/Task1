@@ -1,0 +1,55 @@
+.menu
+{
+ width: 358px;
+ position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid black; 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    background-color: #cbcccb;
+    margin: 25em 55em;
+}
+.menu a 
+{
+	color: black;
+    display: block;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.menu a:hover
+{
+	background: #9C9C9C;
+}
+.menu a:active {
+    background: #545151;
+    color: white;
+}
+
+
+.menu a:focus {
+    background: #545151;
+    color: white;
+}
+
+.elementtop
+{
+	height: 16px;
+	border-radius: 10px 10px 0px 0px;
+}
+.elementbot
+{
+
+	border-radius: 0px 0px 10px 10px;	
+    margin-bottom: -0.5px;
+}
+
+
